@@ -1,0 +1,74 @@
+
+.eleccion {
+    color: #fff;
+    font-size: larger;
+    text-align: center;
+}
+.contenedor{
+    margin: 20px auto;
+    width: 500px;
+    padding: 30px;
+    background: rgb(21, 19, 60);
+    border-radius: 16px;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    border:#EC994B 5px solid;
+}
+.contenedor  label{
+    color: #fff;
+    font-size: x-large;
+    text-align: center;
+    margin:15px;
+}
+.contenedor select{
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    color: black;
+    background: white;
+    border: none;
+    border-bottom: 1px solid #fff;
+}
+.resultado {
+    color: #fff;
+    font-size: x-large;
+    text-align: center;
+    margin: 10px;
+}
+.precio {
+    color: #fff;
+    font-size: x-large;
+    text-align: center;
+    margin: 10px;
+}
+header {
+    background-color: rgb(21, 19, 60);
+    width: fit-content;
+    border-radius: 16px;
+}
+header a {
+    color: #EC994B;
+    background-color: rgba(21, 19, 60, 0.8);
+    text-align: center;
+    font-size: x-large;
+    text-decoration: none;
+    margin: 10px
+}
+header a:hover {
+    color: rgba(21, 19, 60, 0.8);
+    background-color: #EC994B;
+    border-radius: 16px;
+}
+img {
+    margin:20px;
+    border: 4px solid #EC994B;
+    border-radius: 12px;
+    max-width: 350px;
+    max-height: 200px;
+}
+div {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

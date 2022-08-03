@@ -1,0 +1,79 @@
+[
+    {
+        "modelo": "Volkswagen Nivus",
+        "precio": 27000,
+        "anio": 2021, 
+        "km": 30000,
+        "img": "https://img.remediosdigitales.com/97223d/volkswagen-nivus-lanzamiento-mexico-opiniones_/1366_2000.jpg"
+    },
+    {
+        "modelo":"Chevrolet Onix", 
+        "precio": 21000,
+        "anio": 2019,
+        "km": 70000,
+        "img": "https://cdn.motor1.com/images/mgl/Rv3g3/s1/chevrolet-presento-los-nuevos-onix-rs-y-onix-plus-midnight.jpg"
+    },
+    {
+        "modelo":"Toyota Prius",
+        "precio": 24000,
+        "anio": 2020,
+        "km": 40000,
+        "img":"https://i1.wp.com/motormario.com/wp-content/uploads/Slider-21.png?ssl=1"
+    },
+    {
+        "modelo":"Ford Fiesta",
+        "precio": 20000,
+        "anio": 2018,
+        "km": 80000,
+        "img":"https://1.bp.blogspot.com/-7ehC8RYjMVQ/Wy16ZOxV-EI/AAAAAAACurY/VzRa44KMDygNxhmIJLAsV149-voZDMToACLcBGAs/w1200-h630-p-k-no-nu/Nuevo_Ford_Fiesta_Autoblog_Uruguay_2018_Precios_0km%2B%25282%2529.jpg"
+    },
+    {
+        "modelo":"Nissan March",
+        "precio": 18000,
+        "anio": 2018,
+        "km": 50000,
+        "img": "https://cdn.motor1.com/images/mgl/0M9y9/s1/adios-al-nissan-march.jpg"
+    },
+    {
+        "modelo":"Subaru Outback",
+        "precio": 38000,
+        "anio": 2020,
+        "km": 20000,
+        "img": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg73pb2pMvS5O2xqF56P62SHgbCAj5yFjil-7bABsuYvqZIcXoccyFTXEDfY-RvarXPgD3oNMWNWthEyXkpzbI4lqrXDNvmA858CFGxQBZf1QdDHAFZ3gPRjrhnz9V1hqSjX-opqfc5W5h0dV7O5nl2osOTecJUp2B9EgJivAzlfvVLlBHo-rmfafdn/s1707/Lanzamiento:%20Subaru%20Outback%20MY2022%20Precios%200km%20Autoblog%20Uruguay%2020223.jpg"
+    },
+    {
+        "modelo":"Dodge Charger",
+        "precio": 32000,
+        "anio": 1970,
+        "km": 200000,
+        "img": "https://www.eventosmotor.com/wp-content/uploads/2021/02/speedkore-dodge-charger-hellraiser_blog-premium-eventosmotor-1.jpg"
+    },
+    {
+        "modelo":"Toyota Rav",
+        "precio": 29000,
+        "anio": 2016,
+        "km": 100000,
+        "img": "https://cdn.motor1.com/images/mgl/PEBMG/s1/lanzamiento-toyota-rav4-2016.webp"
+    },
+    {
+        "modelo":"Ford Ranger",
+        "precio": 35000,
+        "anio": 2019,
+        "km": 50000,
+        "img": "https://img.motoryracing.com/noticias/portada/24000/24451-n.jpg"
+    },
+    {
+        "modelo":"Chevrolet Camaro",
+        "precio": 40000,
+        "anio": 2010,
+        "km": 90000,
+        "img": "https://acnews.blob.core.windows.net/imgnews/large/19584_155920090204.jpg"
+    },
+    {
+        "modelo":"Toyota Hilux",
+        "precio": 30000,
+        "anio": 2012,
+        "km": 90000,
+        "img": "https://4.bp.blogspot.com/-OEE2juE2afI/TspJB9V65aI/AAAAAAAADvY/XrIp-VDW7oM/s1600/toyotahiluxsr.jpg"
+    }
+]

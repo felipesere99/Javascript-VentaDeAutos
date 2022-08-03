@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automotora Js</title>
+    <link rel="icon" href="/icono-coche-rojo-vista-lateral-auto-dibujos-animados-lindo-aislado-sobre-fondo-blanco_176411-3164.webp">
+    <link href="./assets/css/estilos.css" rel="stylesheet"/>
+    <link href="./assets/css/cliente.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h2>Automotora Javascript</h2>
+        <form id="forma" name="forma" method="post">
+            <div class="elemento">
+                <label for="cliente">Nombre y Apellido</label>
+                <input type="text" id="cliente" name="cliente" required="true"/>
+            </div>
+            <div class="elemento">
+                <label for="telefono">Numero de telefono</label>
+                <input type="text" id="telefono" name="telefono" required="true"/>
+            </div>
+            <div class="elemento">
+                <label for="Edad">Edad</label>
+                <input type="number" id="edad" name="edad" required="true" min="1" max="100"/>
+            </div>
+            <br>
+            <div class="toast" id="toast">Guardar datos</div>
+            <br>
+            <div class="elemento">
+                <a href="/index.html">Volver a inicio</a>
+            </div>
+            <br>
+            <div class="elemento">
+                <a href="/principal.html">Ingresar a la pagina</a>
+            </div>
+        </form>
+    </div>
+    <script src="./assets/js/cliente.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+</body>
+</html>

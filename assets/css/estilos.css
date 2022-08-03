@@ -1,0 +1,13 @@
+*{
+    margin:0;
+    padding:0;
+}
+html{
+    height: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.28), rgba(255, 255, 255, 0.28)), url("https://www.caribbeannewsdigital.com/sites/default/files/2020-05/autos.jpg");
+    background-size: 32%;
+}

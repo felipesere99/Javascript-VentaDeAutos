@@ -1,0 +1,48 @@
+.contenedor{
+    margin: 40px auto;
+    width: 450px;
+    height: auto;
+    padding: 30px;
+    background: rgb(21, 19, 60);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    border:#EC994B 5px solid;
+    position: relative;
+}
+.contenedor h1{
+    margin: 10px;
+    padding: 0;
+    font-size: 30px;
+    color: #EC994B;
+    text-align: center;
+}
+.contenedor h3{
+    margin: 10px;
+    padding: 0;
+    font-size: 30px;
+    color: #EC994B;
+    text-align: center;
+}
+
+.contenedor .elemento a{
+    background-color: #EC994B;
+    color: rgb(21, 19, 60);
+    cursor: pointer;
+    padding: 9px;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    border-radius: 12px 5px;
+    text-decoration: none;
+}
+.contenedor .elemento a:hover{
+    color: #EC994B;
+    background-color: rgb(21, 19, 60);
+}
+img {
+    border:#EC994B 5px solid;
+    margin: 20px;
+    border-radius: 14px;
+}

@@ -1,0 +1,60 @@
+
+.toast{
+    color: rgb(21, 19, 60);
+    cursor: pointer;
+    background-color: #EC994B;
+    padding: 9px;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    border-radius: 12px 5px;
+}
+.toast:hover {
+    color: #EC994B;
+    background-color: rgb(21, 19, 60);
+}
+.contenedor{
+    margin: 50px auto 50px auto;
+    width: 500px;
+    height: auto;
+    padding: 30px;
+    background: rgb(21, 19, 60);
+    border-radius: 10px;
+    border:#EC994B 5px solid;
+}
+
+.contenedor h2{
+    margin: 0 0 30px;
+    padding: 0;
+    font-size: 30px;
+    color: #EC994B;
+    text-align: center;
+}
+.contenedor .elemento label{
+    color: #fff
+}
+.contenedor .elemento input{
+    width: 100%;
+    padding: 10px 0;
+    color: #fff;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+}
+.contenedor .elemento a{
+    background-color: #EC994B;
+    color: rgb(21, 19, 60);
+    cursor: pointer;
+    padding: 9px;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    border-radius: 12px 5px;
+    text-decoration: none;
+}
+.contenedor .elemento a:hover{
+    color: #EC994B;
+    background-color: rgb(21, 19, 60);
+}

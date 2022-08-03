@@ -1,0 +1,148 @@
+.title {
+    padding: 20px;
+}
+h1 {
+    margin: 20px auto;
+    top : 100px;
+    width: 70%;
+    font-size: 50px;
+    color: #EC994B;
+    text-align: center;
+    background-color: rgba(21, 19, 60, 0.8);
+    cursor: default;
+}
+h3 {
+    margin: auto;
+    width: 70%;
+    padding: 0;
+    font-size: 30px;
+    color: #EC994B;
+    text-align: center;
+    background-color: rgba(21, 19, 60, 0.8);
+    margin: 20px auto;
+}
+header {
+    background-color: rgb(21, 19, 60);
+    width: 100%;
+}
+header a {
+    display: inline-block;
+    flex-direction: row;
+    color: #EC994B;
+    background-color: rgba(21, 19, 60, 0.8);
+    width: 20%;
+    text-align: center;
+    font-size: x-large;
+    text-decoration: none;
+}
+header a:hover {
+    color: rgba(21, 19, 60, 0.8);
+    background-color: #EC994B;
+    border-radius: 20px;
+    transition: all 300ms;
+}
+ul {
+    width: auto;
+    border: 5px solid #EC994B;
+    margin: auto;
+    background-color: rgb(21, 19, 60);
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 12px 18px;
+}
+li {
+    color: aliceblue;
+    list-style: none;
+    text-align: center;
+}
+h4 {
+    color: aliceblue;
+    font-size: x-large;
+    text-align: center;
+}
+div {
+    flex-wrap: wrap;
+    margin: auto;
+}
+button {
+    background-color: #EC994B;
+    color: rgb(21, 19, 60);
+    font-size: medium;
+    padding: 5px;
+    margin: auto;
+    margin-top: 15px;
+    text-align: center;
+    display: flex;
+    border-radius: 20px;
+}
+button:hover {
+    color: #EC994B;
+    background-color:rgb(21, 19, 60);
+    border-radius: 20px;
+    border: #EC994B 2px solid;
+    transition: all 300ms;
+}
+header label{
+    color: #EC994B;
+    background-color: rgba(21, 19, 60, 0.8);
+    width: 20%;
+    text-align: center;
+    font-size: x-large;
+    text-decoration: none;
+    margin-bottom: 0px;
+}
+.contenedor {
+    display: flex;
+}
+.contenedor img {
+    margin:20px 50px;
+    border: 4px solid #EC994B;
+    border-radius: 12px;
+}
+.contenedor img:hover {
+    transform: scale(1.5, 1.5);
+}
+footer {
+    background-color: rgb(21, 19, 60);
+    width: 100%;
+}
+footer p{
+    color: #EC994B;
+    background-color: rgba(21, 19, 60, 0.8);
+    text-align: center;
+    font-size: x-large;
+}
+.pie-titulo {
+    margin: 30px;
+}
+.pie-titulo h4{
+    color: #EC994B;
+    font-size: 50px;
+}
+.pie {
+   flex-direction: row;
+   justify-content: space-around;
+   display: flex;
+}
+.pie-redes{
+    flex-direction: column;
+    color: #EC994B;
+    background-color: rgba(21, 19, 60, 0.8);
+    float: left;
+    text-align: center;
+    font-size: x-large;
+    margin: 30px;
+
+}
+footer img {
+    height: 20px;
+}
+.pie-direccion {
+    color: #EC994B;
+    font-size: x-large;
+    float: right;
+    margin: 30px
+}
+.filtro {
+    display: none;
+}
