@@ -18,7 +18,7 @@ class Vehiculo{
 
 const cantidadDeVehiculos = []
 
-fetch('/assets/js/vehiculos.json')
+fetch('./assets/js/vehiculos.json')
     .then( (resp) => resp.json() )
     .then( (data) => {
         data.forEach((vehiculos) => {
