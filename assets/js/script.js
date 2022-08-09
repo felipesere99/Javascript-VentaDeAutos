@@ -18,7 +18,7 @@ class Vehiculo{
 
 const cantidadDeVehiculos = []
 
-fetch('./assets/js/vehiculos.json')
+fetch('https://felipesere99.github.io/Javascript-VentaDeAutos/assets/js/vehiculos.json')
     .then( (resp) => resp.json() )
     .then( (data) => {
         data.forEach((vehiculos) => {
@@ -75,7 +75,7 @@ fetch('./assets/js/vehiculos.json')
     }
 })
 
-document.addEventListener("keyup", e=>{
+/*document.addEventListener("keyup", e=>{
     if (e.target.matches("#buscador")){
         document.querySelectorAll(".contenedor").forEach(vehiculoBuscar => {
             vehiculoBuscar.modelo.toLowerCase().includes(e.target.value.toLowerCase())
@@ -83,4 +83,4 @@ document.addEventListener("keyup", e=>{
                 :vehiculoBuscar.classList.add("filtro")
         })
     }
-})
+})*/
