@@ -30,17 +30,17 @@ fetch('https://felipesere99.github.io/Javascript-VentaDeAutos/assets/js/vehiculo
     
         const ul = document.createElement("ul");
         
-        const li1 = document.createElement("h4");
-        li1.innerText = vehiculos.modelo;
+        const modelo = document.createElement("h4");
+        modelo.innerText = vehiculos.modelo;
     
-        const li2 = document.createElement("li");
-        li2.innerText = 'Precio(sin Iva): U$S ' + vehiculos.precio
+        const precio = document.createElement("li");
+        precio.innerText = 'Precio(sin Iva): U$S ' + vehiculos.precio
     
-        const li3 = document.createElement('li');
-        li3.innerText = 'Año: ' + vehiculos.anio;
+        const antiguedad = document.createElement('li');
+        antiguedad.innerText = 'Año: ' + vehiculos.anio;
     
-        const li4 = document.createElement('li');
-        li4.innerText = 'KM: ' + vehiculos.km
+        const kilometraje = document.createElement('li');
+        kilometraje.innerText = 'KM: ' + vehiculos.km
     
         function display_image(src, width, height, alt) {
             var a = document.createElement("img");
@@ -70,7 +70,7 @@ fetch('https://felipesere99.github.io/Javascript-VentaDeAutos/assets/js/vehiculo
                 window.location.href = "/pago.html"
             }
         }
-        ul.append(li1, li2, li3, li4, comprar);
+        ul.append(modelo, precio, antiguedad, kilometraje, comprar);
         contenedor.appendChild(ul)
     }
 })
