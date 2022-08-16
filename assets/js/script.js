@@ -16,17 +16,17 @@ class Vehiculo{
 
 // Llamado al fetch para transferir los objetos en JSON y asi crear el listado de vehiculos//
 
-const cantidadDeVehiculos = []
+const arrayDeVehiculos = []
 
-fetch('https://felipesere99.github.io/Javascript-VentaDeAutos/assets/js/vehiculos.json')
-    .then( (resp) => resp.json() )
+fetch('https://felipesere99.github.io/Javascript-VentaDeAutos/public/vehiculos.json')
+    .then( (resp) => {return resp.json()} )
     .then( (data) => {
         data.forEach((vehiculos) => {
-            cantidadDeVehiculos.push(new Vehiculo(vehiculos.modelo, vehiculos.precio, vehiculos.anio, vehiculos.km, vehiculos.img))
+            arrayDeVehiculos.push(new Vehiculo(vehiculos.modelo, vehiculos.precio, vehiculos.anio, vehiculos.km, vehiculos.img))
         }
     )
 
-    for (const vehiculos of cantidadDeVehiculos ) {
+    for (const vehiculos of arrayDeVehiculos ) {
     
         const ul = document.createElement("ul");
         
